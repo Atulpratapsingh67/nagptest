@@ -13,7 +13,7 @@ con.connect((err) =>{
         const query = 
         "CREATE DATABASE IF NOT EXISTS results;\
         USE results;\
-        CREATE TABLE IF NOT EXISTS Result (rollnumber INTEGER AUTO_INCREMENT,\
+        CREATE TABLE IF NOT EXISTS result (rollnumber INTEGER AUTO_INCREMENT,\
                 name VARCHAR(255) , date date,\
                 score INTEGER, edit BOOLEAN,\
                 primary key (rollnumber) );\
