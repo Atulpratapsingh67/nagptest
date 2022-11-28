@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const studentRoutes = require('./routes/student');
 const teacherRoutes =require('./routes/teacher');
-
+#changes
 app.use(express.json());
 app.use(cors());
 app.use(studentRoutes);
